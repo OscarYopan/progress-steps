@@ -1,0 +1,57 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Default*/
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  text-align: center;
+}
+
+.progress-container{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 3rem;
+  max-width: 100%;
+  width: 35rem;
+}
+
+.progress{
+  background-color: #555;
+  opacity: 80%;
+}
+
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 4rem;
+  height: 4rem;
+  
+  border: .3rem solid #555;
+  border-radius: 50%;
+
+  font-size: 3rem;
+
+  opacity: 80%;
+
+  margin-right: 5rem;
+  margin-bottom: 4rem;
+}
