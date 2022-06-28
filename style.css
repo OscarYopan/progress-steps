@@ -71,7 +71,7 @@ body{
   width: 4rem;
   height: 4rem;
   
-  border: .3rem solid var(--line-border-empty);
+  border: .35rem solid var(--line-border-empty);
   border-radius: 50%;
 
   font-size: 3rem;
